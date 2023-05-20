@@ -1,0 +1,63 @@
+accuracy report:-
+
+
+Datasets Used:-
+--------------------------
+Datasets:-
+1. articles1.csv - https://www.kaggle.com/datasets/snapcrack/all-the-news
+2. t_asv.csv     - https://www.kaggle.com/datasets/oswinrh/bible
+--------------------------
+
+
+-------------------------
+dataset:- articles1.csv
+-------------------------
+case 1:- 
+rows- 			~50,000
+sentence length		4
+accuracy                71.52%
+hidden text             mid-value
+Testing Duration		12hrs
+RAM Used			8GB
+-------------------------
+case 2:-
+rows- 			~50,000
+sentence length		4
+accuracy                65.87%
+hidden text             random ind
+Testing Duration		12hrs
+RAM Used			8GB
+-------------------------
+case 3:-
+rows- 			~50,000
+sentence length		2
+accuracy                68.96%
+hidden text             random ind
+Testing Duration		7hrs
+RAM Used			8GB
+-------------------------
+
+
+-------------------------
+dataset:- t_asv.csv
+-------------------------
+case 1:- 
+rows- 			~30,000
+sentence length		all available
+accuracy                67.79%
+hidden text             mid-value
+Testing Duration		3hrs
+RAM Used			8GB
+-------------------------
+case 2:-
+rows- 			~30,000
+sentence length		all available
+accuracy                61.99%
+hidden text             random ind
+Testing Duration		3hrs
+RAM Used			8GB
+-------------------------
+
+
+
+
